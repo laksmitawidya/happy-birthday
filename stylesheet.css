@@ -1078,11 +1078,12 @@ audio {
 .balloons {
 	position: fixed;
 	bottom: -250px;
-	z-index: 99;
+	z-index: -99;
 	width: 300px;
 	height: 225px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 300px 225px;
+	border-radius: 100%;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1111,7 +1112,7 @@ audio {
 	background-image: url('b6.jpg');
 }
 #b7,#b77{
-	background-image: url('cake128.png');
+	background-image: url('b7.jpg');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
